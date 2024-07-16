@@ -1,3 +1,3 @@
-const API_URL = 'http://localhost:8081/api/v1';
+const API_URL = 'https://kltncomicbe-production.up.railway.app/api/v1';
 
 export default API_URL;
