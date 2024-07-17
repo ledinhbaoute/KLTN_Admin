@@ -93,7 +93,7 @@ export default function UserTableRow({
         {/* <TableCell align="center">{isVerified ? 'Yes' : 'No'}</TableCell> */}
 
         <TableCell>
-          <Label color={(status === 'Banned' && 'error') || 'success'}>{status}</Label>
+          <Label color={(status === 'Khóa' && 'error') || 'success'}>{status}</Label>
         </TableCell>
 
         <TableCell align="right">
@@ -113,7 +113,7 @@ export default function UserTableRow({
           sx: { width: 140 },
         }}
       >
-        {status==="Active"?(
+        {status==="Khả dụng"?(
           <MenuItem onClick={handleOpenConfirmDialog}>
           <Iconify icon="eva:lock-fill" sx={{ mr: 2 }} />
           Khóa
