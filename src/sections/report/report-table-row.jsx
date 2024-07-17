@@ -108,7 +108,7 @@ export default function ReportTableRow({
         <TableCell component="th" scope="row" padding="none">
           <Stack direction="row" alignItems="center" spacing={2}>
             <Avatar alt={comicName} src={avatarUrl} />
-            <Link to={`http://localhost:3000/comic-detail/${comicId}`}>
+            <Link to={`https://kltn-comic-fe.vercel.app/comic-detail/comic-detail/${comicId}`}>
             <Typography variant="subtitle2" noWrap>
               {comicName}
             </Typography></Link>
